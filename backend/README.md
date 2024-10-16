@@ -42,3 +42,6 @@ Criando fluxo de cadastro:
 
 Criando fluxo de login:
    - O fluxo de login é parecido com o cadastro, deve-se apenas comparar as credenciais para fazer uma busca no banco de dados e ver se está igual.
+
+
+
