@@ -3,7 +3,7 @@
     "rewrites": [
         {
             "source": "/(.*)",
-            "destination": "/prototipo/backend/api"
+            "destination": "/prototipo-autenticacao/backend/api"
         }
     ]
 }
