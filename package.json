@@ -1,0 +1,14 @@
+{
+  "name": "prototipo-autenticacao",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build:frontend": "cd frontend && npm install && npm run build",
+    "build:backend": "cd backend && npm install",
+    "build": "npm run build:frontend && npm run build:backend"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
