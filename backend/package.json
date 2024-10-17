@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "node --watch server",
-    "start": "npx nodemon"
+    "build": "tsc",
+    "dev": "ts-node src/api/index.ts",
+    "start": "npx nodemon --exec npx ts-node ./src/api/index.ts"
   },
   "keywords": [],
   "author": "",

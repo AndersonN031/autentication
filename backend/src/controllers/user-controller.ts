@@ -1,5 +1,7 @@
 import { Request, Response } from "express";
-import { database } from ".."; // Ajuste o caminho conforme necessário
+import { database } from "../secrets";
+// Ajuste o caminho conforme necessário
+
 
 export const findAllUsers = async (req: Request, res: Response) => {
     const { email } = req.query;

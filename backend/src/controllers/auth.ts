@@ -1,8 +1,9 @@
 import { Request, Response } from "express"
-import { prismaClient } from "..";
 import { compareSync, hashSync } from 'bcrypt';
 import * as jwt from 'jsonwebtoken'
 import { JWT_SECRET } from "../secrets";
+import { prismaClient } from "../api";
+
 
 export const signup = async (req: Request, res: Response) => {
     const { name, email, password } = req.body;

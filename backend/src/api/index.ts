@@ -1,6 +1,6 @@
 import express, { Express, Request, Response } from 'express';
-import { PORT } from './secrets';
-import rootRouter from './routes';
+import { PORT } from '../secrets';
+import rootRouter from '../routes';
 import { db } from '@vercel/postgres';
 import cors from 'cors';
 import { PrismaClient } from '@prisma/client';
