@@ -40,5 +40,5 @@ export const login = async (req: Request, res: Response) => {
         userId: user.id,
     }, JWT_SECRET)
 
-    res.json({ user, token })
+    res.json({ user, token });
 }
