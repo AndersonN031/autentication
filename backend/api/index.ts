@@ -20,7 +20,7 @@ export const prismaClient = new PrismaClient({
 })
 
 app.listen(PORT, () => {
-    console.log('Servidor rodando em http://localhost:3000');
+    console.log('Servidor rodando em http://localhost:3000/api/user/user');
 })
 
 export { database };

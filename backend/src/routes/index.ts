@@ -5,6 +5,6 @@ import userRoutes from "./users";
 const rootRouter: Router = Router()
 
 rootRouter.use('/auth', authRoutes);
-rootRouter.use('/auth', userRoutes);
+rootRouter.use('/user', userRoutes);
 
 export default rootRouter;

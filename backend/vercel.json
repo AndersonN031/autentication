@@ -3,7 +3,19 @@
     "rewrites": [
         {
             "source": "/(.*)",
-            "destination": "/prototipo-autenticacao/backend/api"
+            "destination": "/api"
+        }
+    ],
+    "builds": [
+        {
+            "src": "/backend/api/index.ts",
+            "use": "@vercel/node"
+        }
+    ],
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "/"
         }
     ]
 }
